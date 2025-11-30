@@ -3,7 +3,7 @@
     {
       "method": "shell.run",
       "params": {
-        "message": "git clone https://github.com/gh640/mlx-whisper-webui.git app"
+        "message": "git clone https://github.com/dadleo/mlx-whisper-webui.git app"
       }
     },
     {
