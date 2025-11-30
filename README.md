@@ -1,20 +1,27 @@
-# MLX Whisper WebUI for Pinokio
+# MLX Whisper WebUI (Pinokio Installer)
 
-This is a **Pinokio** installer for the MLX Whisper WebUI. It runs OpenAI's Whisper models locally on your Mac using the Apple MLX framework (extremely fast).
+One-click installer for **MLX Whisper** on macOS. This version is a highly modified fork designed to fix common issues with hallucinations and translation on Apple Silicon.
 
-### ✨ Features
-- **Optimized for Apple Silicon:** Runs on M1/M2/M3/M4 Macs.
-- **Video URL Support:** Paste links from YouTube, TikTok, X (Twitter), etc. directly into the UI.
-- **Fixed Hallucinations:** Includes a custom UI with **Language** and **Task** selectors.
-- **Problem Solved:** Prevents the issue where Chinese/Silent audio is incorrectly transcribed as Japanese text.
+### ✨ Key Features
+- **Video URL Support:** Paste links from YouTube, TikTok, X (Twitter) directly.
+- **Multi-Model Support:** Switch between `Turbo` (Fastest) and `Large/Medium` (Best for Translation).
+- **Fixed Hallucinations:** Custom UI prevents the "Chinese audio turns into Japanese text" bug.
+- **Optimized for Mac:** Runs locally using Apple's MLX framework.
 
-### 📥 How to Install
-1. Download and install [Pinokio](https://pinokio.computer/).
-2. Open Pinokio and click **"Download from URL"**.
-3. Paste this URL: [https://github.com/dadleo/mlx-whisper-webui-pinokio](https://github.com/dadleo/mlx-whisper-webui-pinokio)
+### 📥 Installation
+1. Install [Pinokio](https://pinokio.computer/).
+2. Click **"Download from URL"**.
+3. Paste: `https://github.com/dadleo/mlx-whisper-webui-pinokio`
 4. Click **Install**.
 
-### 🛠 Usage
-1. Launch the app from Pinokio.
-2. Open the Web UI.
-3. **Important:** Select your language manually (e.g., `zh` for Chinese) to ensure accuracy.
+### 🛠 User Guide & Tips
+
+| Goal | Audio | Settings to Use |
+| :--- | :--- | :--- |
+| **Transcribe Chinese** | Chinese | **Model:** Turbo <br> **Lang:** `zh` <br> **Task:** Transcribe |
+| **Translate to English** | Chinese | **Model:** Medium or Large *(Turbo often fails this)* <br> **Lang:** `zh` <br> **Task:** Translate |
+| **Force Traditional** | Chinese | **Prompt:** `以下是繁體中文。` |
+| **Download Video** | YouTube/URL | Use the **"Paste URL"** tab. |
+
+### ⚠️ Note on Translation
+If you select **Task: Translate**, Whisper will *always* output English text. It cannot translate English audio into Chinese text.
