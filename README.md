@@ -10,4 +10,10 @@ This is a **Pinokio** installer for the MLX Whisper WebUI. It runs OpenAI's Whis
 ### 📥 How to Install
 1. Download and install [Pinokio](https://pinokio.computer/).
 2. Open Pinokio and click **"Download from URL"**.
-3. Paste this URL:
+3. Paste this URL: [https://github.com/dadleo/mlx-whisper-webui-pinokio](https://github.com/dadleo/mlx-whisper-webui-pinokio)
+4. Click **Install**.
+
+### 🛠 Usage
+1. Launch the app from Pinokio.
+2. Open the Web UI.
+3. **Important:** Select your language manually (e.g., `zh` for Chinese) to ensure accuracy.
