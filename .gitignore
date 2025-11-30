@@ -1,0 +1,5 @@
+app/
+cache/
+logs/
+ENVIRONMENT/
+.DS_Store

@@ -1,0 +1,23 @@
+{
+  "run": [
+    {
+      "method": "shell.run",
+      "params": {
+        "message": "git clone https://github.com/gh640/mlx-whisper-webui.git app"
+      }
+    },
+    {
+      "method": "shell.run",
+      "params": {
+        "path": "app",
+        "message": "uv sync"
+      }
+    },
+    {
+      "method": "notify",
+      "params": {
+        "html": "Installation Finished! Click 'Start' to launch."
+      }
+    }
+  ]
+}

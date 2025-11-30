@@ -1,0 +1,24 @@
+{
+  "run": [
+    {
+      "method": "shell.run",
+      "params": {
+        "path": "app",
+        "message": "git pull"
+      }
+    },
+    {
+      "method": "shell.run",
+      "params": {
+        "path": "app",
+        "message": "uv sync"
+      }
+    },
+    {
+      "method": "notify",
+      "params": {
+        "html": "Update Finished!"
+      }
+    }
+  ]
+}
