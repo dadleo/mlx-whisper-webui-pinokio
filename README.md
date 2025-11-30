@@ -4,6 +4,7 @@ This is a **Pinokio** installer for the MLX Whisper WebUI. It runs OpenAI's Whis
 
 ### ✨ Features
 - **Optimized for Apple Silicon:** Runs on M1/M2/M3/M4 Macs.
+- **Video URL Support:** Paste links from YouTube, TikTok, X (Twitter), etc. directly into the UI.
 - **Fixed Hallucinations:** Includes a custom UI with **Language** and **Task** selectors.
 - **Problem Solved:** Prevents the issue where Chinese/Silent audio is incorrectly transcribed as Japanese text.
 
