@@ -14,7 +14,7 @@ One-click installer for **MLX Whisper** on macOS. This version is a highly modif
 3. Paste: `https://github.com/dadleo/mlx-whisper-webui-pinokio`
 4. Click **Install**.
 
-### 🛠 User Guide & Tips
+### 🛠 User Guide & Tips (samples on Chinese, same behaviour on other languages)
 
 | Goal | Audio | Settings to Use |
 | :--- | :--- | :--- |
